@@ -1,0 +1,77 @@
+.infodiv {
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+.infodiv a {
+    text-decoration: none;
+    color: rgb(57, 113, 204);
+}
+
+.userinfo {
+    color: white;
+    width: 25%;
+    margin: 3% 0 0 37%;
+    overflow-wrap: break-word;
+    font-weight: 700;
+}
+
+.userinfo img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.listofrepos {
+    transition: 0.3s all ease;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    margin: 50px 0 100px 17%;
+    width: 65%;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: scale(1);
+}
+
+.listofrepos>div {
+    width: 20%;
+    margin: 20px 0 20px 35px;
+    height: 80px;
+    text-align: left;
+    padding: 10px;
+    transition: 0.3s all ease;
+    display: flex;
+}
+
+.listofrepos>div>div {
+    margin: 0px 0 0px 20px;
+    font-size: small;
+    font-weight: 650;
+    color: rgb(57, 113, 204);
+    overflow-wrap: break-word;
+    width: 180px;
+}
+
+.listofrepos>div img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 15px;
+    border-radius: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.listofrepos>div>div p:nth-child(1) {
+    cursor: pointer;
+}
+
+.listofrepos>div>div p:nth-child(2) {
+    margin-top: -8px;
+    font-size: smaller;
+    font-weight: 630;
+    color: rgb(155, 155, 155);
+}

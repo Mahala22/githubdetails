@@ -1,0 +1,53 @@
+.modal {
+    transition: 0.3s all ease;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    margin: 50px 0 100px 17%;
+    width: 65%;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: scale(1);
+    position: absolute;
+    z-index: 500;
+    overflow: auto;
+}
+
+.modal>div {
+    width: 20%;
+    margin: 20px 0 20px 35px;
+    height: 80px;
+    text-align: left;
+    padding: 10px;
+    transition: 0.3s all ease;
+    display: flex;
+}
+
+.modal>div>div {
+    margin: 0px 0 0px 20px;
+    font-size: small;
+    font-weight: 650;
+    color: rgb(57, 113, 204);
+    overflow-wrap: break-word;
+    width: 180px;
+}
+
+.modal>div img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 15px;
+    border-radius: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.modal>div>div p:nth-child(1) {
+    cursor: pointer;
+}
+
+.modal>div>div p:nth-child(2) {
+    margin-top: -8px;
+    font-size: smaller;
+    font-weight: 630;
+    color: rgb(155, 155, 155);
+}
